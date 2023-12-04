@@ -1,0 +1,47 @@
+#loginPopupContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ffffff;
+    z-index: 11;
+    padding: 10px 20px;
+    max-width: 480px;
+}
+
+#darkOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 50%;
+    z-index: 10;
+}
+
+.closeLink {
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../Img/Icons/close.png');
+    background-size: 24px;
+}
+.closeLinkLogin {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#loginPopupContainer p {
+    font-family: var(--font-family-main);
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+#loginPopupContainer a {
+    color: #186223;
+}
+
+.greeting {
+    padding-right: 16px;
+}
